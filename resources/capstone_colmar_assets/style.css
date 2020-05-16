@@ -7,56 +7,76 @@
 
 body {
   background-color: white;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  line-height: 1rem;
+}
+
+ul {
+  list-style: none;
 }
 
 /*HEADER*/
 
 header {
   width: 100%;
-  height: 64px;
+  height: 4rem;
+  position: fixed;
+  background-color: white;
   top: 0;
-  padding: 0 24px;
-}
-
-.header--left,
-.header--left img,
-.header--left .header-big-text,
-.header--left .header-big-text h3,
-.header--right,
-.header--right ul,
-.header--right ul li,
-.header--right ul li h4 {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.header--left .header-big-text h3,
-.header--right ul li h4 {
-  position: static;
-  line-height: 32px;
-  text-align: center;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header--left,
 .header--right {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.header--left img,
-.header-big-text,
-.header--right ul,
-.header--right ul li {
-  height: 32px;
+.header--left img {
+  display: block;
+  margin: auto;
+}
+
+.header--left .header-big-text h3 {
+  float: left;
+}
+
+#Colmar {
+  font-weight: bold;
+  color: #303030;
+}
+
+#Academy {
+  font-weight: normal;
+  color: #ccc;
+}
+
+.header--right ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header--right li {
-  margin: 0 16px;
+  margin: 0 1rem;
   margin-right: 0;
 }
 
-.header--right {
-  float: right;
+.header--right ul li h4 {
+  font-weight: normal;
 }
 
 /*SECTION 1*/
