@@ -18,6 +18,16 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
 /*HEADER*/
 
 header {
@@ -103,16 +113,6 @@ header {
   color: #303030;
 }
 
-.section-first .right h1 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
-.section-first .right h2 {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-}
-
 .section-first .right h1,
 .section-first .right h2 {
   width: 75%;
@@ -134,3 +134,26 @@ header {
 }
 
 /*SECTION 2*/
+
+.section-second {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-s-second {
+  padding: 32px 0 32px 24px;
+}
+
+.container-s-second .left img {
+  width: 60%;
+}
+
+.container-s-second .right {
+  width: 40%;
+}
+
+.container-s-second .right .info img {
+  width: 35%;
+  height: auto;
+}
