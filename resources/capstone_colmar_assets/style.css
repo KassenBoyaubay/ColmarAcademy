@@ -21,11 +21,19 @@ ul {
 h1 {
   font-size: 3rem;
   line-height: 3rem;
+  color: #303030;
 }
 
 h2 {
   font-size: 1.4rem;
   line-height: 1.4rem;
+  color: #303030;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #303030;
 }
 
 /*HEADER*/
@@ -40,6 +48,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .header--left,
@@ -136,24 +145,83 @@ header {
 /*SECTION 2*/
 
 .section-second {
-  background-color: white;
+  background-color: #f3f5f5;
+}
+
+.section-second .container-s-second {
+  padding: 2rem 0 2rem 1.5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.container-s-second {
-  padding: 32px 0 32px 24px;
-}
-
-.container-s-second .left img {
+.section-second .container-s-second .left {
   width: 60%;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.container-s-second .right {
+.section-second .container-s-second .left img {
+  display: block;
+}
+
+.section-second .container-s-second .left h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-second .container-s-second p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  width: 90%;
+}
+
+.section-second .container-s-second .left .caption {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: black;
+  margin-top: 2.4rem;
+}
+
+.section-second .container-s-second .right {
   width: 40%;
+  position: relative;
+  top: -1rem;
 }
 
-.container-s-second .right .info img {
-  width: 35%;
+.section-second .container-s-second .right .info {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.section-second .container-s-second .right .info img {
+  width: 48%;
   height: auto;
 }
+
+.section-second .container-s-second .right .info .text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.section-second .container-s-second .right .info .text h2 {
+  font-size: 2.2rem;
+  line-height: normal;
+  margin: 0;
+}
+
+.section-second .container-s-second .right .info:last-child {
+  background-color: #ccc;
+  color: #303030;
+}
+.section-second .container-s-second .right .info .text a {
+  color: #37b6ee;
+}
+
+/*SECTION 3*/
