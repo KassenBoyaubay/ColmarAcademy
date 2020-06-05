@@ -30,6 +30,12 @@ h2 {
   color: #303030;
 }
 
+h3 {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
 p {
   font-size: 1rem;
   line-height: 1.2rem;
@@ -225,3 +231,54 @@ header {
 }
 
 /*SECTION 3*/
+
+.container-s-third {
+  background-color: #d8d8d8;
+  padding: 2rem 3.5rem;
+}
+
+.container-s-third h1 {
+  text-align: center;
+}
+
+.container-s-third .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-s-third .content .block {
+  background-color: white;
+  margin: 2rem;
+}
+
+.container-s-third .content .block img {
+  height: auto;
+  display: block;
+}
+
+.container-s-third .content .block .block-text {
+  margin: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container-s-third .content .block .block-text h2 {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.container-s-third .content .block .block-text h3 {
+  color: gray;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.container-s-third .content .block .block-text p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: gray;
+  margin: 0;
+}
