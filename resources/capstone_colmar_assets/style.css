@@ -331,3 +331,22 @@ header {
 }
 
 /*FOOTER*/
+
+footer {
+  padding: 1rem 1.5rem 4rem 1.5rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d8d8d8;
+}
+
+footer p {
+  margin: 0;
+  color: gray;
+}
+
+footer .links a {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: gray;
+}
