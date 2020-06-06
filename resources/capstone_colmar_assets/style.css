@@ -148,19 +148,21 @@ header {
   line-height: 1rem;
 }
 
-/*SECTION 2*/
+/*SECTION 2 and 4*/
 
 .section-second {
   background-color: #f3f5f5;
 }
 
-.section-second .container-s-second {
+.section-second .container-s-second,
+.section-fourth .container-s-fourth {
   padding: 2rem 0 2rem 1.5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.section-second .container-s-second .left {
+.section-second .container-s-second .left,
+.section-fourth .container-s-fourth .left {
   width: 60%;
   padding-right: 1.5rem;
   display: flex;
@@ -168,8 +170,10 @@ header {
   justify-content: space-between;
 }
 
-.section-second .container-s-second .left img {
+.section-second .container-s-second .left img,
+.section-fourth .container-s-fourth .left video {
   display: block;
+  width: 100%;
 }
 
 .section-second .container-s-second .left h1 {
@@ -177,7 +181,8 @@ header {
   margin-bottom: 1.5rem;
 }
 
-.section-second .container-s-second p {
+.section-second .container-s-second p,
+.section-fourth .container-s-fourth .right .info .text p {
   font-size: 1.4rem;
   line-height: 2.2rem;
   width: 90%;
@@ -203,12 +208,14 @@ header {
   border-top: 0;
 }
 
-.section-second .container-s-second .right .info img {
+.section-second .container-s-second .right .info img,
+.section-fourth .container-s-fourth .right .info img {
   width: 48%;
   height: auto;
 }
 
-.section-second .container-s-second .right .info .text {
+.section-second .container-s-second .right .info .text,
+.section-fourth .container-s-fourth .right .info .text {
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -216,13 +223,15 @@ header {
   padding-left: 2rem;
 }
 
-.section-second .container-s-second .right .info .text h2 {
+.section-second .container-s-second .right .info .text h2,
+.section-fourth .container-s-fourth .right .info .text h2 {
   font-size: 2.2rem;
   line-height: normal;
   margin: 0;
 }
 
-.section-second .container-s-second .right .info:last-child {
+.section-second .container-s-second .right .info:last-child,
+.section-fourth .container-s-fourth .right .info:first-child {
   background-color: #ccc;
   color: #303030;
 }
@@ -230,7 +239,7 @@ header {
   color: #37b6ee;
 }
 
-/*SECTION 3*/
+/*SECTION 3 and 4*/
 
 .container-s-third {
   background-color: #d8d8d8;
@@ -282,3 +291,43 @@ header {
   color: gray;
   margin: 0;
 }
+
+/*SECTION 4*/
+
+.section-fourth {
+  background-color: #f3f5f5;
+  padding-top: 2rem;
+}
+
+.section-fourth h1 {
+  text-align: center;
+}
+
+.section-fourth .container-s-fourth .right {
+  width: 40%;
+}
+
+.section-fourth .container-s-fourth .right .info {
+  padding: 1rem;
+  display: flex;
+}
+
+.section-fourth .container-s-fourth .left video {
+  object-fit: fill;
+}
+
+.section-fourth .container-s-fourth .left h2 {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-fourth .container-s-fourth .left p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: gray;
+  width: 90%;
+}
+
+/*FOOTER*/
